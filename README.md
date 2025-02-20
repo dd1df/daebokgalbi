@@ -17,17 +17,18 @@
       margin: 0;
     }
     h1 {
-      font-size: 25px; /* 제목 크기 조정 */
+      font-size: 25px;
       margin: 20px 0;
     }
     ol {
-      font-size: 25px; /* 리스트 글자 크기 */
+      font-size: 25px;
       list-style-position: inside;
       padding: 0;
       margin: 0 auto;
-      max-width: 90%; /* 더 넓게 정렬하여 가독성 향상 */
+      max-width: 90%;
       text-align: left;
-      line-height: 1.6; /* 줄 간격 조정 */
+      line-height: 1.6;
+      overflow-x: auto; /* 내용이 길면 가로 스크롤 생성 */
     }
     li {
       margin-bottom: 15px;
@@ -39,20 +40,23 @@
     /* 모바일 가독성을 위한 반응형 디자인 */
     @media screen and (max-width: 600px) {
       body {
-        font-size: 24px;
-        padding: 10px; /* 모바일에서 여백 조정 */
+        font-size: 18px;
+        padding: 10px;
       }
       h1, ol {
-        font-size: 24px;
+        font-size: 18px;
       }
       ol {
-        max-width: 95%; /* 모바일에서 최대 너비 늘려 가독성 향상 */
+        max-width: 95%;
+      }
+      li {
+        white-space: nowrap; /* 모바일에서 문장이 한 줄로 나오게 함 */
       }
     }
   </style>
 </head>
 <body>
-  <h1>영수증 리뷰 이벤트 😊 </h1>
+  <h1>영수증 리뷰 이벤트 😊</h1>
   <ol>
     <li>직원을 불러 영수증을 받아주세요! 😊</li>
     <li>
