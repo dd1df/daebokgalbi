@@ -21,6 +21,8 @@
       margin: 20px 0;
     }
     ol {
+      font-size: 25px;
+      list-style-position: inside;
       padding: 0;
       margin: 0 auto;
       max-width: 90%;
@@ -28,10 +30,8 @@
       line-height: 1.6;
     }
     li {
-      font-size: 25px;
       margin-bottom: 15px;
-      white-space: nowrap;    /* 줄바꿈 없이 한 줄로 표시 */
-      overflow-x: auto;       /* 내용이 넘치면 수평 스크롤 생성 */
+      /* white-space와 overflow-x를 제거하여 텍스트가 자동으로 줄 바꿈됩니다. */
     }
     a {
       color: #0077cc;
@@ -43,7 +43,7 @@
         font-size: 18px;
         padding: 10px;
       }
-      h1, li {
+      h1, ol {
         font-size: 18px;
       }
       ol {
@@ -55,11 +55,11 @@
 <body>
   <h1>영수증 리뷰 이벤트 😊</h1>
   <ol>
-    <li>직원을 불러 영수증을 받아주세요! 😊</li>
-    <li>영수증을 받으셨다면 아래 링크로 들어가주세요! <a href="https://m.place.naver.com/my/checkin" target="_blank">https://m.place.naver.com/my/checkin</a> 😊</li>
-    <li>영수증을 터치 후 카메라로 영수증을 찍어주세요! 😊</li>
-    <li>후에 나오는 리뷰를 순서대로 작성해주세요! 😊</li>
-    <li>보여주시면 주류/음료 한 개가 서비스로 지급됩니다! 😊</li>
+    <li>1.직원을 불러 영수증을 받아주세요! 😊</li>
+    <li>2.영수증을 받으셨다면 아래 링크로 들어가주세요! <a href="https://m.place.naver.com/my/checkin" target="_blank">https://m.place.naver.com/my/checkin</a> 😊</li>
+    <li>3.영수증을 터치 후 카메라로 영수증을 찍어주세요! 😊</li>
+    <li>4.후에 나오는 리뷰를 순서대로 작성해주세요! 😊</li>
+    <li>5.보여주시면 주류/음료 한 개가 서비스로 지급됩니다! 😊</li>
   </ol>
 </body>
 </html>
