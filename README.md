@@ -53,13 +53,13 @@
   </style>
 </head>
 <body>
-  <h1>영수증 리뷰 이벤트 😊</h1>
+  <h1>영수증 리뷰 이벤트 </h1>
   <ol>
     <li>직원을 불러 영수증을 받아주세요! 😊</li>
-    <li>영수증을 받으셨다면 아래 링크로 들어가주세요! <a href="https://m.place.naver.com/my/checkin" target="_blank">https://m.place.naver.com/my/checkin</a> 😊</li>
+    <li>영수증을 받으셨다면 아래 링크로  들어가주세요! <a href="https://m.place.naver.com/my/checkin" target="_blank">https://m.place.naver.com/my/checkin</a> 😊</li>
     <li>영수증을 터치 후 카메라로 영수증을 찍어주세요! 😊</li>
-    <li>후에 나오는 리뷰를 순서대로 작성해주세요! 😊</li>
-    <li>보여주시면 주류/음료 한 개가 서비스로 지급됩니다! 😊</li>
+    <li>후에 나오는 리뷰를 순서대로    작성해주세요! 😊</li>
+    <li>보여주시면 주류/음료 한 개가    서비스로 지급됩니다! 😊</li>
   </ol>
 </body>
 </html>
